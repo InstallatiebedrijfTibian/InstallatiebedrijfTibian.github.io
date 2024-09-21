@@ -1,0 +1,3 @@
+document.getElementById('serviceButton').addEventListener('click', function() {
+    alert('Bekijk binnenkort onze uitgebreide dienstenpagina!');
+});
