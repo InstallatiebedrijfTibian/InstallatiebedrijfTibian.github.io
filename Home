@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tibian Loodgietersbedrijf</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #f1c40f;
+        }
+        header {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #f1c40f;
+        }
+        nav {
+            text-align: center;
+            margin: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #f1c40f;
+            font-size: 18px;
+        }
+        .banner {
+            background-image: url('https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGxvb2RnaWV0ZXJ8ZW58MHx8fHwxNjc2NTgyMDA4&ixlib=rb-1.2.1&q=80&w=1080');
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .banner h1 {
+            font-size: 48px;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .content img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+        }
+        footer {
+            background-color: #000;
+            padding: 10px;
+            text-align: center;
+            color: #f1c40f;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welkom bij Tibian Loodgietersbedrijf</h1>
+</header>
+
+<nav>
+    <a href="#diensten">Diensten</a>
+    <a href="#over-ons">Over Ons</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="banner">
+    <h1>Experts in Sanitair en Installaties</h1>
+</section>
+
+<div class="content" id="diensten">
+    <h2>Onze Projecten</h2>
+    <p>Bekijk enkele van onze recente loodgietersprojecten:</p>
+
+    <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEyfHxsb29kZ2lldGVyfGVufDB8fHx8MTY3NjU4MjA0MA&ixlib=rb-1.2.1&q=80&w=1080" alt="Project 1 - Leidingen installeren">
+    <p>Project 1 - Installatie van nieuwe leidingen</p>
+
+    <img src="https://images.unsplash.com/photo-1597005488031-79a4f06b240b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDd8fHBsdW1iaW5nJTIwd29ya3Nob3B8ZW58MHx8fHwxNjc2NTgyMDUz&ixlib=rb-1.2.1&q=80&w=1080" alt="Project 2 - Badkamerrenovatie">
+    <p>Project 2 - Complete badkamerrenovatie en installatie van sanitair</p>
+
+    <img src="https://images.unsplash.com/photo-1581092336829-9052f70fc0ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGxvb2RnaWV0ZXJ8ZW58MHx8fHwxNjc2NTgyMDkw&ixlib=rb-1.2.1&q=80&w=1080" alt="Project 3 - Verwarmingssystemen">
+    <p>Project 3 - Installatie van energiezuinige verwarmingssystemen</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Tibian Loodgietersbedrijf. Alle rechten voorbehouden.</p>
+</footer>
+
+</body>
+</html>
